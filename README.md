@@ -38,3 +38,14 @@ This is a basic tutorial for building a Ruby gem from scratch.
         new SwordFightInsults().output()
   
 n.b. This requires you to have the messages.txt file in the same directory.
+
+More Tutorials
+--------------
+
+You can also use bundler to create Gem skeletons for you, provided you create a skeleton project, with:
+
+        gem install bundle
+        bundle gem swordfightinsults
+
+See the following for more info on building Gems:
+
