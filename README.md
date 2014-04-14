@@ -49,3 +49,5 @@ You can also use bundler to create Gem skeletons for you, provided you create a 
 
 See the following for more info on building Gems:
 
+        http://guides.rubygems.org/make-your-own-gem/
+        
