@@ -39,6 +39,18 @@ This is a basic tutorial for building a Ruby gem from scratch.
   
 n.b. This requires you to have the messages.txt file in the same directory.
 
+5. To push your gem to rubygems.org you need an account.  Signup for an account then issue the following to get the API key credentials onto your machine:
+
+        curl -u <your_username> https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials
+
+Then push your local gem that you've built with:
+
+        gem push swordfightinsults-0.0.0.rb
+
+Make sure it's been pushed successfully by listing the gem:
+
+         gem list -r hola
+        
 More Tutorials
 --------------
 
@@ -50,4 +62,5 @@ You can also use bundler to create Gem skeletons for you, provided you create a 
 See the following for more info on building Gems:
 
         http://guides.rubygems.org/make-your-own-gem/
+        http://blog.thepete.net/blog/2010/11/20/creating-and-publishing-your-first-ruby/
         
