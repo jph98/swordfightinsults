@@ -1,5 +1,5 @@
 Sword Fight Insults - A tutorial on building a Ruby gem
-===============
+-------------------------------------------------------
 
 This is a basic tutorial for building a Ruby gem from scratch.
 
