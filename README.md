@@ -42,6 +42,7 @@ n.b. This requires you to have the messages.txt file in the same directory.
 5. To push your gem to rubygems.org you need an account.  Signup for an account then issue the following to get the API key credentials onto your machine:
 
         curl -u <your_username> https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials
+        chmod 0600 ~/.gem/credentials
 
 Then push your local gem that you've built with:
 
