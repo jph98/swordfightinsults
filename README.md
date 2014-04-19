@@ -1,6 +1,9 @@
 Sword Fight Insults - A tutorial on building a Ruby gem
 -------------------------------------------------------
 
+![Swordfight Screenshot](https://raw.githubusercontent.com/jph98/swordfightinsults/master/swordfight.png)
+
+
 This is a basic tutorial for building a Ruby gem from scratch.
 
 1. Let's create a class that just outputs a message of the day in lib:
