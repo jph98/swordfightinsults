@@ -1,10 +1,10 @@
-Sword Fight Insults - A tutorial on building a Ruby gem
--------------------------------------------------------
+Sword Fight Insults
+-------------------
 
 ![Swordfight Screenshot](https://raw.githubusercontent.com/jph98/swordfightinsults/master/swordfight.png)
 
 
-This is a basic tutorial for building a Ruby gem from scratch.
+This is a basic tutorial for building a Ruby gem from scratch whilst providing the Guybrush Threepwood/Swordmaster insult question/answer interface from Monkey Island
 
 1. Let's create a class that just outputs a message of the day in lib:
 
